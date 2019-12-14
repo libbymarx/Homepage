@@ -1,0 +1,55 @@
+#title {
+padding-left: 216px;
+padding-right: 216px;
+text-align:center;
+font-family: courier new;
+font-size: 140px;
+color: White;}
+
+.container{
+    overflow:hidden;
+}
+A {text-decoration: none;}
+#navbar{
+    /*overflow controls what happens to content that is too big to fit into an area*/
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: block;
+    font-family: courier new;
+    font-size: 24px;
+    z-index: 1;
+}
+#navbar a{
+    /*displaying the links as block elements makes the whole area clickable; inline-block common to display items horizontally*/
+    display: inline-block; 
+    padding: 16px;
+    color: black;
+ }
+
+#navbar a:hover{
+    background-color: lightgray;
+}
+#navbar a:active{
+    background-color: black;
+    color: white;
+}
+footer {text-align: center;
+font-family: helvetica;
+    font-size: 12px;
+color: white;}
+
+#bodytext {text-align: center;
+font-family: helvetica;
+    background-color: white;
+color: black;
+padding: 15px;
+font-size: 16px;}
+
+#bodyinfo {padding-left: 20%;
+padding-right: 20%;
+padding-top: 1px;
+padding-bottom: 1px;}
